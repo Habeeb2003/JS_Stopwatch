@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    main{
+        .sect2{
+            max-width: 500px !important;
+        
+            #screenSect{
+                width: 250px;
+                height: 250px;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span{
+                    font-size: 60px;
+                    font-weight: bolder;
+                }
+            }
+            #btnSect{
+                div{
+                    text-align: center;
+                    button{
+                        width: 150px !important;
+                        font-size: 40px;
+                        font-weight: bolder;
+                        border-radius: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

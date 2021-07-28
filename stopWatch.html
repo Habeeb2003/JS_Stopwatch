@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stopWatch.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div style="text-align: center;">
+                <h1>STOP WATCH</h1>
+            </div>
+        </section>
+        <section class="container sect2">
+            <div id="screenSect">
+                <span id="Min"></span>
+                <span>:</span>
+                <span id="Sec"></span>
+                <span>.</span>
+                <span id="milli"></span>
+            </div>
+            <div id="btnSect">
+                <div>
+                    <button class="btn btn-danger" onclick="Play(this.innerHTML)">Reset</button>
+                    <button class="btn btn-danger" onclick="Play(this.innerHTML)">stop</button>
+                    <button id="playAndPause" onclick="Play(this.innerHTML)" class="btn btn-primary"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="stopWatch.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .sect2 {
+  max-width: 500px !important;
+}
+body main .sect2 #screenSect {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .sect2 #screenSect span {
+  font-size: 60px;
+  font-weight: bolder;
+}
+body main .sect2 #btnSect div {
+  text-align: center;
+}
+body main .sect2 #btnSect div button {
+  width: 150px !important;
+  font-size: 40px;
+  font-weight: bolder;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=stopWatch.css.map */
